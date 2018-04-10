@@ -73,6 +73,24 @@ Take a screenshot of:
 
 ### Demonstrate testing in your program.
 Take screenshots of:
+- Test code
+  ![]()
+
+- Code under test
+  ![]()
+
+- Failing test
+  ![]()
+
+- Corrected code under test
+  ![]()
+
+- Passing test
+  ![]()
+
+
+CHECK: IS THIS ACCURATE?
+Take screenshots of:  TODO
 
 - Example of test code
   ![]()
@@ -108,31 +126,29 @@ Provide a screenshot of the planning you completed during your group project, e.
   ![](../screenshots/group_proto_personas.png)
   ![](../screenshots/group_user_needs.png)
   ![](../screenshots/group_trello.png)
-  ![]()
-
-
 
 
 ### Write an acceptance criteria and test plan.
+- TODO
 
 
 ### Produce two system interaction diagrams (sequence and/or collaboration diagrams).
-  ![]()
+  ![]() TODO
   ![]()
 
 
 ### Produce two object diagrams.
-  ![]()
-  ![]()
+  ![]() TODO
+  ![]() TODO
 
 
 ### Select two algorithms you have written (NOT the group project).
 Take a screenshot of each and write a short statement on why you have chosen to use those algorithms.
   ![]()
-  -
+  - TODO
 
   ![]()
-  -
+  - TODO
 
 ### Produce a bug tracking report
--
+- TODO

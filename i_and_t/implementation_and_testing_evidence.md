@@ -37,12 +37,14 @@ Take screenshots of:
   ![](sorted_transactions_output.png)
 
 ### Demonstrate the use of Polymorphism in a program.
+- TODO
 
 
 ### Take a screenshot of an example of encapsulation in a program.
+- TODO
 
 ### Demonstrate the use of Inheritance in a program.
-Take screenshots of:
+Take screenshots of: TODO
 
 - A Class
 
@@ -54,3 +56,4 @@ Take screenshots of:
 
 
 ### Coding Exercise: Unit and Integration testing task B
+TODO

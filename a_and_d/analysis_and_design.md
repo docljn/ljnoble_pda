@@ -13,7 +13,7 @@
 ![](../screenshots/activity_diagram.png)
 
 ### An Inheritance Diagram
-![]()
+![](../screenshots/inheritance_diagram.png)
 
 
 ### Produce an Implementations Constraints plan detailing the following factors:
