@@ -83,4 +83,4 @@ Calculator.prototype = {
 
 };
 
-if (typeof module != "undefined"){ module.exports = Calculator };
+if (typeof module != "undefined"){ module.exports = Calculator; }

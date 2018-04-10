@@ -9,20 +9,38 @@ This is integrated into an HTML page that gives a 'calculator layout' of buttons
 The calculator object has properties to keep track of calculations as it performs them.
 
 
-##SETUP:
+## SETUP
 Run `npm install` to install all dependencies.
 
 You can run the code from the terminal with `npm start`, you can then view the calculator at http://localhost:3000.
 
+**No you can't**
+_The nodemon dependency was not included in the package.json file_
+Remedy:
+```bash
+> npm install --save-dev nodemon
+```
+
+## Running The Tests
 You can run the unit tests from the terminal with `npm test`.
 
 To run the integration / browser tests:
 
-Run `npm run webdriver-update` to update the webdriver server that the integration tests run on.
+- Run `npm run webdriver-update` to update the webdriver server that the integration tests run on.
 
-With your localhost:3000 server still running, open a new tab in Terminal and run `npm run webdriver`
+- With your localhost:3000 server still running, open a new tab in Terminal and run `npm run webdriver`
 
-Leave that server running as well. Then run `npm run protractor` to run the integration tests.
+- Leave that server running as well. Then run `npm run protractor` to run the integration tests.
+
+**NB:** ProtractorJS specifically states that it is for Angular and AngularJS apps
+[Protractor Test Website](http://www.protractortest.org/)
+
+Protractor uses the Jasmine framework by default.  Jasmine is a behaviour-driven development framework for testing JavaScript code.
+[Jasmine Website](https://jasmine.github.io/2.0/introduction.html)
+
+In this project, the dependencies note "chai" and "chai-as-promised".
+[Chai Framework](http://www.chaijs.com/)
+[Chai As Promised](http://www.chaijs.com/plugins/chai-as-promised/)
 
 ##Tasks
 
@@ -42,7 +60,7 @@ All of these functions should be tested thoroughly:
 
 ### Integration/Acceptance Tests
 
-You need to write integration/acceptance tests to ensure all of the units of code work together in the browser to perform as the user would wish. The framework provided to do this is Protractor JS using Chai for assertions, and there is one sample test written in `/tests/integration/tests.js`. 
+You need to write integration/acceptance tests to ensure all of the units of code work together in the browser to perform as the user would wish. The framework provided to do this is Protractor JS using Chai for assertions, and there is one sample test written in `/tests/integration/tests.js`.
 
 You should write tests to ensure:
 
@@ -55,8 +73,3 @@ What does the code do in exceptional circumstances?
 
   - If you divide by zero, what is the effect?
   - Can you write a test to describe what you'd prefer to happen, and then correct the code to make that test pass.
-
-
-
-
-

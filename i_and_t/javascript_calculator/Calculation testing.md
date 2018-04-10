@@ -4,7 +4,7 @@ The program is a Javascript calculator to be able to perform simple arithmetic f
 
 The code provided has a calculator object with functions to add, subtract, divide, and multiple given numbers to a previous total. This allows the user to chain multiple operations one after the other, and then ask for the total.
 
-This is integrated into an HTML page that gives a 'calculator layout' of buttons which operate the functionality of the JavaScript.
+This is integrated into an HTML page that gives a "calculator layout" of buttons which operate the functionality of the JavaScript.
 
 The calculator object has properties to keep track of calculations as it performs them.
 
