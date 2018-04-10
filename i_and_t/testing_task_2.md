@@ -1,10 +1,10 @@
-##Testing task 2:
+## Testing task 2:
 
 Carry out dynamic testing on the code below.
 Correct the errors below that you spotted in task 1.
 
 ```ruby
-def func1(val)
+def is_one?(val)
   if val == 1
     return true
   else
@@ -38,10 +38,10 @@ else
   failures = failures + 1
 end
 
-if func1(3) == false
-  puts "func1(3) passed"
+if is_one?(3) == false
+  puts "is_one?(3) passed"
 else
-  puts "func1(3) failed"
+  puts "is_one?(3) failed"
   failures = failures + 1
 end
 

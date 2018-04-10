@@ -1,4 +1,4 @@
-##Testing task 1:
+## Testing task 1:
 
 Carry out static testing on the code below.
 Read through the code.
@@ -15,8 +15,9 @@ end
 ```
 
 - best practice would have arguments in parentheses
-- val = 1 is assigment, not testing equality
+- val = 1 is assignment, not testing equality
 - indentation of the if-statement is unhelpful
+- naming of function does not relate to actual purpose
 
 ```ruby
 dif max a b
