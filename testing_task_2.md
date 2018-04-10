@@ -1,9 +1,9 @@
-### Testing task 2 code:
+##Testing task 2:
 
-# Carry out dynamic testing on the code below.
-# Correct the errors below that you spotted in task 1.
+Carry out dynamic testing on the code below.
+Correct the errors below that you spotted in task 1.
 
-
+```ruby
 def func1(val)
   if val == 1
     return true
@@ -59,3 +59,4 @@ if failures > 0
 else
   puts "Test Passed"
 end
+```
