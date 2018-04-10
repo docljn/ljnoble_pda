@@ -3,7 +3,7 @@ var Calculator = function(){
   this.previousTotal = 0;       // the total of the previous operation
   this.newTotal = true;         // whether the previous operation has just been calculated
   this.runningTotal = 0;        // the current value to operate on the previous total
-}
+};
 
 Calculator.prototype = {
 
@@ -30,11 +30,11 @@ Calculator.prototype = {
     // the `newTotal` flag
 
     if (this.runningTotal == 0 || this.newTotal) {
-      this.runningTotal = '';
+      this.runningTotal = "";
       this.newTotal = false;
     }
     // concatenate the clicked number to the running total
-    this.runningTotal = parseFloat('' + this.runningTotal + number);
+    this.runningTotal = parseFloat("" + this.runningTotal + number);
 
   },
 
@@ -44,24 +44,24 @@ Calculator.prototype = {
     // the operation for the previous operator
     if (this.previousTotal && this.previousOperator) {
       switch (this.previousOperator) {
-        case ('+'):
+      case ("+"):
         this.add(this.runningTotal);
         break;
-        case ('-'):
+      case ("-"):
         this.subtract(this.runningTotal);
         break;
-        case ('*'):
+      case ("*"):
         this.multiply(this.runningTotal);
         break;
-        case ('/'):
+      case ("/"):
         this.divide(this.runningTotal);
         break;
       }
     }
 
-    // if the 'equals' button was clicked, clear the previous operator, otherwise
+    // if the "equals" button was clicked, clear the previous operator, otherwise
     // record what the previous operator was
-    if (operator == '=') {
+    if (operator == "=") {
       this.previousOperator = null;
     } else {
       this.previousOperator = operator;
@@ -83,4 +83,4 @@ Calculator.prototype = {
 
 };
 
-if (typeof module != 'undefined'){ module.exports = Calculator };
+if (typeof module != "undefined"){ module.exports = Calculator };
