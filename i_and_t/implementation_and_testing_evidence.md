@@ -4,9 +4,11 @@
 Take screenshots of:
 - An array in a program
 - A function that uses the array
+
   ![](../screenshots/array_in_program.png)
 
 - The result of the function running
+
   ![](../screenshots/array_result_of_function.png)
 
 
@@ -15,16 +17,20 @@ Take screenshots of:
 Take screenshots of:
 - A hash in a program
 - A function that uses the hash
+
   ![](../screenshots/hash_function.png)
 
 - The result of the function running
+
   ![](../screenshots/hash_function_output.png)
 
 ### Demonstrate searching data in a program.
 Take screenshots of:
 - Function that searches data
+
   ![](../screenshots/sorted_data_transactions_function.png)
 - The result of the function running
+
   ![](../screenshots/search_for_cash_output.png)
 
 
@@ -32,8 +38,10 @@ Take screenshots of:
 Take screenshots of:
 
 - Function that sorts data
+
   ![](../screenshots/sorted_data_transactions_function.png)
 - The result of the function running
+
   ![](sorted_transactions_output.png)
 
 ### Demonstrate the use of Polymorphism in a program.
