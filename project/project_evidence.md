@@ -4,7 +4,12 @@
   ![](../screenshots/user_site_map.png)
 
 ### Produce two wireframe designs
-  ![](../screenshots/wire_frame_mock_ups.png)
+
+![](../screenshots/wireframe_android_jackpot.png)
+
+![](../screenshots/wireframe_group_project.jpg)
+
+![](../screenshots/wireframe_inab_transaction.png)
 
 ### Give an example of pseudocode for a function
 
@@ -115,12 +120,13 @@ Take a screenshot of:
 
 
 ### Group Project
+[Project Readme](https://github.com/docljn/codeclan_group_project/blob/master/README.md)
+
 #### Take a screenshot of the contributor’s page on Github from your group project to show the team you worked with.
   ![](../screenshots/github_group_contrib.png)
 
 #### Take a screenshot of the project brief from your group project.
   ![](../screenshots/group_project_brief.png)
-  [Project Readme](https://github.com/docljn/codeclan_group_project/blob/master/README.md)
 
 #### Provide a screenshot of the planning you completed during your group project, e.g. Trello MOSCOW board.
   ![](../screenshots/group_proto_personas.png)
@@ -134,7 +140,7 @@ Take a screenshot of:
 
 ### Produce two system interaction diagrams (sequence and/or collaboration diagrams).
   ![]() TODO
-  ![]()
+  ![]() TODO
 
 
 ### Produce two object diagrams.
