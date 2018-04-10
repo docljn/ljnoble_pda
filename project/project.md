@@ -59,6 +59,16 @@ Take a screenshot of:
 ### Take screenshots or photos of your planning and the different stages of development to show changes.
 - Trello
   ![](../screenshots/Trello_INAB.png)
+- ProtoPersona  
+  ![](../screenshots/planning_proto_persona_nicole.png)
+- User Journey
+  ![](../screenshots/user_journey.png)
+- Initial Commit
+  ![](../screenshots/initial_commit.png)
+- Final Commit  
+  ![](../screenshots/final_commit.png)
+- Final Readme
+  [Readme.md](https://github.com/docljn/i_need_a_budget_in_ruby_sinatra/blob/master/readme.md)
 
 
 ### Demonstrate testing in your program.
