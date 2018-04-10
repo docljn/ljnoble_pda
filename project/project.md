@@ -90,23 +90,24 @@ Take screenshots of:
 Take a screenshot of:
 
 - The code that uses or implements the API
-  ![]()
+  ![](../screenshots/group_api.png)
 
 - The API being used by the program whilst running
-  ![]()
+  ![](../screenshots/group_api_output.png)
 
 
 ### Group Project
 Take a screenshot of the contributor’s page on Github from your group project to show the team you worked with.
-  ![]()
+  ![](../screenshots/github_group_contrib.png)
 
 Take a screenshot of the project brief from your group project.
-  ![]()
+  ![](../screenshots/group_project_brief.png)
+  [Project Readme](https://github.com/docljn/codeclan_group_project/blob/master/README.md)
 
 Provide a screenshot of the planning you completed during your group project, e.g. Trello MOSCOW board.
-  ![]()
-  ![]()
-  ![]()
+  ![](../screenshots/group_proto_personas.png)
+  ![](../screenshots/group_user_needs.png)
+  ![](../screenshots/group_trello.png)
   ![]()
 
 
