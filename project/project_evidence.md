@@ -108,7 +108,7 @@ Take screenshots of:  TODO
 Take a screenshot of:
 
 - The code that uses or implements the API
-  ![](../screenshots/group_api.png)
+  ![](../screenshots/group_translate_api.png)
 
 - The API being used by the program whilst running
   ![](../screenshots/group_api_output.png)
