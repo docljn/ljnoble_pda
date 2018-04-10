@@ -42,7 +42,7 @@ Take screenshots of:
   ![](../screenshots/sorted_data_transactions_function.png)
 - The result of the function running
 
-  ![](sorted_transactions_output.png)
+  ![](../screenshots/sorted_transactions_output.png)
 
 ### Demonstrate the use of Polymorphism in a program.
 - TODO
