@@ -4,12 +4,28 @@ Create a user sitemap
 
 Produce two wireframe designs
 
-Take a screenshot of an example of pseudocode for a function
+Give an example of pseudocode for a function
+
+```
+function Sell_Cinema_Ticket_To_Customer
+
+  if the customer can afford the ticket
+    and if there are available seats in the cinema
+
+      create a new ticket for the customer
+      debit the customer's wallet with the ticket price
+      credit the cinema till with the ticket price
+      reduce the number of available seats in the cinema
+
+```
+
 
 
 Show user input being processed according to design requirements. Take a screenshot of:
 - The user inputting something into your program
+  ![](../screenshots/input_saved.png)
 - The user input being saved or used in some way
+  ![](../screenshots/user_input_new_transaction.png)
 
 
 Show an interaction with data persistence. Take a screenshot of:

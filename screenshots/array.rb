@@ -1,13 +1,14 @@
 # array.rb
 
-array = Array.new
+one_to_ten = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-array.push(1, 2, 3, 4, 5, 6, 7, 8, 9)
+def multiples(multiplier, array)
+  multiples = array.map { |number| number * multiplier}
+  return multiples
+end
 
-p array
+p one_to_ten
 
-array.reverse!()
-
-p array
+p multiples(10, one_to_ten)
 
 # array.rb
