@@ -64,4 +64,5 @@ Take screenshots of: TODO
 
 
 ### Coding Exercise: Unit and Integration testing task B
-TODO
+- Link to folder containing test files in project
+  [Calculator Tests](https://github.com/docljn/ljnoble_pda/tree/master/i_and_t/javascript_calculator/tests)
