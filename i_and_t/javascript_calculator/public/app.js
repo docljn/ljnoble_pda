@@ -1,14 +1,17 @@
+/*global Calculator*/
+
 window.onload = function(){
 
   var calculator = new Calculator();
+  // Doesn't need to be defined here as index.html references both calculator.js and app.js
 
   var updateView = function() {
-    var runningTotal = document.querySelector('#running_total');
+    var runningTotal = document.querySelector("#running_total");
     runningTotal.value = calculator.runningTotal;
   };
 
   //bind number clicks to number buttons
-  var numbers = document.querySelectorAll('.number');
+  var numbers = document.querySelectorAll(".number");
   numbers.forEach(function(number) {
     number.onclick = function(e) {
       calculator.numberClick(e.target.innerText);
@@ -17,22 +20,22 @@ window.onload = function(){
   });
 
   // bind operator clicks to operator buttons
-  var operators = document.querySelectorAll('.operator');
+  var operators = document.querySelectorAll(".operator");
   operators.forEach(function(button) {
     button.onclick =  function(e) {
-      operator = (e.target.innerText);
+      var operator = (e.target.innerText);
       calculator.operatorClick(operator);
       updateView();
     };
   });
 
-  // handle clicking of the 'clear' button
-  var clear = document.querySelector('#clear');
+  // handle clicking of the "clear" button
+  var clear = document.querySelector("#clear");
   clear.onclick = function() {
     calculator.clearClick();
     updateView();
   };
-  
 
 
-}
+
+};
