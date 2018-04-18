@@ -58,9 +58,9 @@ Take screenshots of: TODO
 
 - A Class that inherits from the previous class
 
-- An Object in the inherited class
+- An Object in the inherited class [use a test file]
 
-- A Method that uses the information inherited from another class
+- A Method that uses the information inherited from another class [in the test file]
 
 
 ### Coding Exercise: Unit and Integration testing task B

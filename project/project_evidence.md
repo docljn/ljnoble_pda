@@ -165,20 +165,6 @@ Take a screenshot of:
   ![](../screenshots/passing_test.png)
 
 
-<!-- CHECK: IS THIS ACCURATE?
-Take screenshots of:  TODO
-
-- Example of test code
-  ![]()
-- The test code failing to pass
-  ![]()
-
-- Example of the test code once errors have been corrected
-  ![]()
-
-- The test code passing
-  ![]() -->
-
 
 ### Show an API being used within your program.
 Take a screenshot of:
@@ -207,20 +193,31 @@ Take a screenshot of:
 
 ### Write an acceptance criteria and test plan.
 <!-- - TODO -->
+- user can click and go to desired page
+- etc etc
+- cf. PDA lesson 2
 
 
-### Produce two system interaction diagrams (sequence and/or collaboration diagrams).
+### Produce two system interaction diagrams (sequence and/or collaboration diagrams)
+- cf. PDA lesson 2
+- collaboration diagrams x 2 [two separate activities]
+  - initialization
+  - class
+  - method to next class
+  - method to next class
   <!-- ![]() TODO
   ![]() TODO -->
 
 
-### Produce two object diagrams.
+### Produce two object diagrams
+- must be code from your projects
   <!-- ![]() TODO
   ![]() TODO -->
 
 
 ### Select two algorithms you have written (NOT the group project).
 Take a screenshot of each and write a short statement on why you have chosen to use those algorithms.
+- algorithm: method that does something with data (sorting, fetching, storing)
   <!-- ![]()
   - TODO
 
@@ -228,4 +225,8 @@ Take a screenshot of each and write a short statement on why you have chosen to 
   - TODO -->
 
 ### Produce a bug tracking report
+- this is a thing that happened
+- this is why it went wrong
+- this is how we fixed it
+- cf. PDA lesson 2
 <!-- - TODO -->
