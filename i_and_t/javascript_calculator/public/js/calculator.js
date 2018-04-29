@@ -1,4 +1,3 @@
-var bd = require("bigdecimal");
 
 var Calculator = function(){
   this.previousOperator = null; // the last operator the user clicked
@@ -10,19 +9,23 @@ var Calculator = function(){
 Calculator.prototype = {
 
   add: function(number){
-    this.runningTotal = bd.BigDecimal(this.previousTotal).add(bd.BigDecimal(number));
+    this.runningTotal = parseFloat(this.previousTotal) + parseFloat(number);
   },
 
   subtract: function(number){
-    this.runningTotal = bd.BigDecimal(this.previousTotal).subtract(bd.BigDecimal(number));
+    this.runningTotal = parseFloat(this.previousTotal) - parseFloat(number);
   },
 
   multiply: function(number){
-    this.runningTotal = bd.BigDecimal(this.previousTotal).multiply(bd.BigDecimal(number));
+    this.runningTotal = parseFloat(this.previousTotal) * parseFloat(number);
   },
 
   divide: function(number){
-    this.runningTotal = bd.BigDecimal(this.previousTotal).divide(bd.BigDecimal(number));
+    if (number === 0){
+      this.runningTotal = "Error: divide by 0";
+    } else {
+      this.runningTotal = parseFloat(this.previousTotal) / parseFloat(number);
+    }
   },
 
   numberClick: function(number) {
@@ -36,7 +39,7 @@ Calculator.prototype = {
       this.newTotal = false;
     }
     // concatenate the clicked number to the running total
-    this.runningTotal = bd.BigDecimal("" + this.runningTotal + number);
+    this.runningTotal = parseFloat("" + this.runningTotal + number);
 
   },
 
