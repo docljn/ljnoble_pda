@@ -45,22 +45,31 @@ Take screenshots of:
   ![](../screenshots/sorted_transactions_output.png)
 
 ### Demonstrate the use of Polymorphism in a program.
-- TODO
+- the interface which makes polymorphism possible
+![](../screenshots/polymorphism_interface.png)
+- implementation
+![](../screenshots/polymorphism.png)
 
 
 ### Take a screenshot of an example of encapsulation in a program.
-- TODO
+- ![](../screenshots/encapsulation.png)
 
 ### Demonstrate the use of Inheritance in a program.
-Take screenshots of: TODO
+Take screenshots of:
 
 - A Class
+![](../screenshots/polymorphism.png)
 
 - A Class that inherits from the previous class
+![](../screenshots/inheritance.png)
 
 - An Object in the inherited class [use a test file]
+  ![](../screenshots/inheritance_child.png)
+
 
 - A Method that uses the information inherited from another class [in the test file]
+  - inherited methods:
+  ![](../screenshots/inheritance_parent_methods.png)
 
 
 ### Coding Exercise: Unit and Integration testing task B

@@ -12,7 +12,7 @@
 - [Testing task 2](./i_and_t/testing_task_2.md)
 
 ### Unit and Integration Coding Exercise
-- TODO
+- [JavaScript Calculator](./i_and_t/javascript_calculator)
 
 ## Project Unit
 - [Evidence for Project](./project/project_evidence.md)

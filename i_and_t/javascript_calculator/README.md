@@ -65,11 +65,27 @@ You need to write integration/acceptance tests to ensure all of the units of cod
 You should write tests to ensure:
 
   - Do the number buttons work to update the display of the running total?
+    - yes
   - Do each of the arithmetical operations work to update the display with the result of the operation?
+    - yes
   - Can we chain multiple operations together?
+    - yes
   - Does it work as expected for a range of numbers? (positive, negative, decimals, very large numbers)
+    - no:
+      - very large and very small number results of multiplication or division do not give accurate answers
+      - implement a fix using the BigDecimal class instead of float, which is known to cause arithmetical errors
+      - ```bash
+        > npm install bigdecimal
+        ```
+      - 
+    - no:
+      - the calculator as designed does not accept (-) as the first entry when the display is zero so it is impossible to start with a negative number
+      - this is a known feature of simple calculators, and could potentially be solved by the addition of a +/- key to change the sign of a number, rather than using the existing subtract operation key
 
 What does the code do in exceptional circumstances?
 
   - If you divide by zero, what is the effect?
+    - the calculator returns infinity
   - Can you write a test to describe what you'd prefer to happen, and then correct the code to make that test pass.
+    - I am happy with the result, however, your question implies that this is not the desired outcome
+    - Assuming you would rather receive an error message on division by zero, I have updated the test and implementation
