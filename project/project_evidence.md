@@ -5,11 +5,10 @@
 
 ### Produce two wireframe designs
 
-![](../screenshots/wireframe_android_jackpot.png)
+![](../screenshots/android_wireframe.png)
 
-![](../screenshots/wireframe_group_project.jpg)
+![](../screenshots/wireframe_travelingo.jpg)
 
-![](../screenshots/wireframe_inab_transaction.png)
 
 ### Give an example of pseudocode for a function
 
@@ -40,7 +39,7 @@ Take a screenshot of:
 
 ### Show an interaction with data persistence.
 Take a screenshot of:
-- Data being inputted into your program
+- Data being input into your program
 
   ![](../screenshots/user_input_new_transaction.png)
 - Confirmation of the data being saved
@@ -192,41 +191,40 @@ Take a screenshot of:
 
 
 ### Write an acceptance criteria and test plan.
-<!-- - TODO -->
-- user can click and go to desired page
-- etc etc
-- cf. PDA lesson 2
+Acceptance Criterion | Expected Result / Output | Pass/Fail
+---------------------|--------------------|------
+A user can see all countries and their respective languages | On app start, a drop-down list of countries and associated languages is displayed | PASS
+A user can select a country | Country name, local weather (if available), flag, and common phrases translated into the language of the selected country are displayed | PASS
+A user can save a custom translated phrase | When a user reselects a language where they have previously saved a phrase, that translation is displayed along with the standard list of phrases | PASS
+A user can hear a translated phrase spoken by a native speaker | When a user clicks on "Speak" the phrase is spoken if the language is available in the speech-to-text api | PASS
+
 
 
 ### Produce two system interaction diagrams (sequence and/or collaboration diagrams)
-- cf. PDA lesson 2
-- collaboration diagrams x 2 [two separate activities]
-  - initialization
-  - class
-  - method to next class
-  - method to next class
-  <!-- ![]() TODO
-  ![]() TODO -->
+
+  ![](../screenshots/hotel_update_collaboration.png)
+
+  ![](../screenshots/vending_machine_collaboration.png)
 
 
 ### Produce two object diagrams
-- must be code from your projects
-  <!-- ![]() TODO
-  ![]() TODO -->
+
+  ![](../screenshots/fantasy_object_diagram.png)
+
+  ![](../screenshots/object_diagram.png)
 
 
 ### Select two algorithms you have written (NOT the group project).
 Take a screenshot of each and write a short statement on why you have chosen to use those algorithms.
 - algorithm: method that does something with data (sorting, fetching, storing)
-  <!-- ![]()
-  - TODO
+  ![](../screenshots/router_function.png)
+  - This algorithm links the front-end of the application to the back-end (client side to server side) by responding to an HTML get request with a JSON object which is generated from the ENUM constants representing the item-types which are stocked in the vending machine being modelled. The JSON object is structured to include the full details of the ENUM, rather than just the names, to allow for the correct representation of the information in the reactjs front end.
 
-  ![]()
-  - TODO -->
+  ![](../screenshots/status_function.png)
+  - This algorithm is a way to aggregate all the data required to model the current status of the vending machine.  A JSON object is constructed using various separate methods to interrogate the current status of the modelled machine, and this is used to pass the data to the primary react component.
 
 ### Produce a bug tracking report
-- this is a thing that happened
-- this is why it went wrong
-- this is how we fixed it
-- cf. PDA lesson 2
-<!-- - TODO -->
+Description | Pass/Fail | Fix | Pass/Fail
+------------|:-----------:|-----|:----------:|
+When an item is purchased and change is returned the change amount is displayed in cents rather than dollars | FAIL | Apply DisplayFormat.dollars() method to the change amount before returning the information to the client side | PASS
+The initial render of the app is taking longer than the agreed 1 second | FAIL | Resize all image files to 50mm width so that the rendering does not rely on resizing images | PASS
