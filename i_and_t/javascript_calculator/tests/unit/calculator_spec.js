@@ -1,7 +1,7 @@
 /*global describe beforeEach it */
 
-var Calculator = require("../../public/js/calculator.js")
-var assert = require("assert")
+var Calculator = require("../../public/js/calculator.js");
+var assert = require("assert");
 var calculator;
 
 describe("calculator", function () {
@@ -92,7 +92,7 @@ describe("calculator", function () {
     calculator.operatorClick("=");
 
 
-    const expected = calculator.runningTotal
+    const expected = calculator.runningTotal;
     const actual = 14;
     assert.equal(expected, actual);
   });
@@ -104,7 +104,7 @@ describe("calculator", function () {
     calculator.operatorClick("=");
 
     const expected = calculator.runningTotal;
-    const actual = "Error: divide by zero";
+    const actual = "Error: divide by 0";
     assert.equal(expected, actual);
   });
 

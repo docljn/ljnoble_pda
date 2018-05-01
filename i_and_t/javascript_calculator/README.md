@@ -73,11 +73,8 @@ You should write tests to ensure:
   - Does it work as expected for a range of numbers? (positive, negative, decimals, very large numbers)
     - no:
       - very large and very small number results of multiplication or division do not give accurate answers
-      - implement a fix using the BigDecimal class instead of float, which is known to cause arithmetical errors
-      - ```bash
-        > npm install bigdecimal
-        ```
-      - 
+      - it would be possible implement a fix using the BigDecimal class instead of float, which is known to cause arithmetical errors
+      - at this time, after discussion with the PO, a decision was made to continue with the existing limitations of functionality
     - no:
       - the calculator as designed does not accept (-) as the first entry when the display is zero so it is impossible to start with a negative number
       - this is a known feature of simple calculators, and could potentially be solved by the addition of a +/- key to change the sign of a number, rather than using the existing subtract operation key
