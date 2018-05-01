@@ -71,7 +71,14 @@ Take screenshots of:
   - inherited methods:
   ![](../screenshots/inheritance_parent_methods.png)
 
+### Static and Dynamic Coding Exercises
+  - [Testing task 1](./testing_task_1.md)
+  - [Testing task 2](./testing_task_2.md)
+
+  - Unit and Integration Coding Exercises
+
 
 ### Coding Exercise: Unit and Integration testing task B
-- Link to folder containing test files in project
-  [Calculator Tests](https://github.com/docljn/ljnoble_pda/tree/master/i_and_t/javascript_calculator/tests)
+- [JavaScript Calculator Readme](./javascript_calculator/README.md)
+- [Calculator Tests Folder](https://github.com/docljn/ljnoble_pda/tree/master/i_and_t/javascript_calculator/tests)
+  - [Complete JavaScript Calculator Code](./javascript_calculator)
